@@ -22,3 +22,15 @@ jobs:
 
     - name: Build project
       run: npm run build # package.jsonに定義されたビルドコマンドを実行
+# --- 👇 ここから GitHub Pages 公開用のステップ ---
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './out' # Next.js が出力した静的ファイルのフォルダを指定
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
