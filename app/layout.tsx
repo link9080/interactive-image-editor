@@ -10,7 +10,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'ダークルーム — 画像エディター',
+  title: '画像エディター',
   description:
     '写真をアップロードして、ブラウザ内で編集できます。明るさ・コントラスト・彩度の調整、フィルターの適用、回転・反転、ダウンロードに対応。',
   generator: 'v0.app',

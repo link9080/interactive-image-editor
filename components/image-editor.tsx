@@ -103,7 +103,7 @@ export function ImageEditor() {
           </div>
           <div className="leading-none">
             <h1 className="text-base font-extrabold tracking-tight text-foreground">
-              ダークルーム
+              Image Editor
             </h1>
             <p className="text-[11px] font-medium text-muted-foreground">
               ブラウザ画像エディター
